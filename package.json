@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Case104/JSX-Live-Compiler#readme",
   "dependencies": {
+    "babel": "^6.5.2",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   }
