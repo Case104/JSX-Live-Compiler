@@ -1,13 +1,5 @@
-Base files for new react project.
+### JSX Live Compiler
 
-To start run:
+This compiler will demonstrate how babel translates jsx syntax and provide a live update with basic error display.
 
-	npm init
-	npm install react react-dom --save
-	// npm instal babel webpack webpack-dev-server -g // if new machine
-	npm install babel-loader babel-core babel-preset-es2015 babel-preset-react
-
-	edit package.json with a new script
-		"scripts": {
-    "start": "webpack-dev-server"
-  	},
+Credit to tutorials by Joe at egghead.io.
