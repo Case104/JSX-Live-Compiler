@@ -1,0 +1,23 @@
+{
+  "name": "jsx-live-compiler",
+  "version": "1.0.0",
+  "description": "Live compiler for JSX syntax using babel.",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Case104/JSX-Live-Compiler.git"
+  },
+  "author": "Jonathan Case",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Case104/JSX-Live-Compiler/issues"
+  },
+  "homepage": "https://github.com/Case104/JSX-Live-Compiler#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
