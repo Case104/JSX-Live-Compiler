@@ -5,7 +5,7 @@ class App extends React.Component {
 	constructor(){
 		super();
 		this.state = {
-			input: '/* Enter JSX here */',
+			input: '',
 			output: '',
 			error: ''
 		}
@@ -34,8 +34,11 @@ class App extends React.Component {
 		return (
 			<div>
 				<header>{this.state.error}</header>
-				<div classname='container'>
-					<textarea onChange={this.update} defaultValue={this.state.input}>
+				<div className='container'>
+					<textarea 
+						onChange={this.update}
+						defaultValue={this.state.input}
+						placeholder='Enter JSX here'>
 					</textarea>
 					<pre>
 						{this.state.output}
